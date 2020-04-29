@@ -1,5 +1,6 @@
 CREATE TABLE IF NOT EXISTS network_logs ( 
     server_name VARCHAR(255), 
+    server_id INT,
     latency FLOAT, 
     jitter FLOAT, 
     packet_loss INT, 

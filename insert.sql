@@ -5,6 +5,7 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n' (
     server_name,
+    server_id
     latency,
     jitter,
     packet_loss,
